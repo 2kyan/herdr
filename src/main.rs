@@ -126,11 +126,11 @@ const DEFAULT_CONFIG: &str = r##"# herdr configuration
 # so existing preview installs stay there until explicitly switched.
 # channel = "stable"
 
-# Check herdr.dev for new Herdr versions in the background.
-# version_check = true
+# Background checks are off by default; set true to opt in.
+# version_check = false
 
-# Check herdr.dev for remote agent-detection manifest updates in the background.
-# manifest_check = true
+# Remote agent-detection manifest checks are also off by default.
+# manifest_check = false
 
 [keys]
 # Prefix key to enter prefix mode (default: "ctrl+b")
